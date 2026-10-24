@@ -2,11 +2,35 @@
 <html lang="pl">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Moja pierwsza strona w chmurze</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #1f2937; }
+    h1 { margin-bottom: 4px; }
+    .sub { color: #6b7280; margin-top: 0; }
+    li { margin-bottom: 8px; }
+    a { color: #0f766e; }
+  </style>
 </head>
-<body style="font-family:sans-serif; max-width:640px; margin:40px auto">
+<body>
   <h1>Dzień dobry z chmury ☁️</h1>
-  <p>Tę stronę opublikował: Viliamin Stepushenkov, grupa 1.</p>
-  <p>Nie mam własnego serwera — stronę udostępnia GitHub.</p>
+  <p class="sub">Viliamin Stepushenkov · grupa 1</p>
+
+  <p>Nie mam własnego serwera — tę stronę udostępnia GitHub Pages.</p>
+
+  <h2>Pięć cech chmury według NIST</h2>
+  <ul>
+    <li><strong>Samoobsługa na żądanie</strong> — zasoby uruchamiam sam, jednym kliknięciem, bez udziału pracownika dostawcy.</li>
+    <li><strong>Szeroki dostęp sieciowy</strong> — z usługi korzystam przez internet z dowolnego urządzenia, np. z laptopa i telefonu.</li>
+    <li><strong>Wspólna pula zasobów</strong> — dostawca dzieli jeden zbiór sprzętu między wielu klientów, przydzielając go dynamicznie.</li>
+    <li><strong>Szybka elastyczność</strong> — moc obliczeniową można w kilka sekund zwiększyć lub zmniejszyć, dopasowując ją do obciążenia.</li>
+    <li><strong>Usługa mierzona</strong> — zużycie jest stale mierzone, więc płaci się tylko za to, co rzeczywiście wykorzystano.</li>
+  </ul>
+
+  <h2>Najciekawszy model usług</h2>
+  <p>Najbardziej zainteresował mnie model <strong>FaaS</strong> (np. AWS Lambda), bo pozwala uruchamiać pojedyncze funkcje bez myślenia o serwerach i płacić tylko za milisekundy ich faktycznego działania — to dobrze pasuje do aplikacji, które buduję, z nieregularnym ruchem.</p>
+
+  <p><a href="https://wiliamins.github.io/chmura-cwiczenia">Repozytorium z kodem i notatkami →</a></p>
 </body>
 </html>
+
